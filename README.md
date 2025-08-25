@@ -35,30 +35,36 @@ This project is conducted at [PIASPACE](https://www.pia.space/) internship.
    After Projection, we use DBSCAN, NMS. 
 1) DBSCAN
    ```
+   cd apgcc
    python APGCC_DBSCAN.py
    ```
 
 2) NMS
     ```
+    cd apgcc
     python APGCC_NMS.py
     ```
 
 3) NMS + SORT
     ```
+    cd apgcc
     python APGCC_NMS_SORT.py
     ```
 
 ## Make video
 1) APGCC RESULT
     ```
+    cd apgcc
     python APGCC_result_make_video.py
     ```
 2) BEV Result
     ```
+    cd apgcc
     python BEV_make_video.py
     ```
 3) TRACKING Result
     ```
+    cd apgcc
     python Tracking_make_video.py
     ```
 
